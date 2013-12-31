@@ -22,9 +22,7 @@ sudo cp -rf hadoop-hive-installing/config/environment /etc/environment
 source /etc/environment
 
 # copy some config file for hadoop.
-cp -rf hadoop-hive-installing/config/hadoop/* $HADOOP_HOME/conf/
-cp -rf hadoop-hive-installing/config/hadoop/hdfs-site.xml $HADOOP_HOME/conf/hdfs-site.xml
-cp -rf hadoop-hive-installing/config/hadoop/mapred-site.xml $HADOOP_HOME/conf/mapred-site.xml
+cp -rf hadoop-hive-installing/hadoop/* $HADOOP_HOME/conf/
 
 # create hdfs folder
 mkdir hdfs

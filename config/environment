@@ -1,0 +1,3 @@
+HADOOP_HOME=~/hadoop-1.2.1
+HIVE_HOME=~/hive-0.11.0
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$HIVE_HOME/bin"

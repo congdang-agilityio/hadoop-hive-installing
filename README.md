@@ -34,8 +34,11 @@ Steps
 *Once the script is finished then Hadoop be ON and Hive is ready for using*
 
 For testing, you can access on browser
-http://localhost:50070 to see the NameNode status 
-http://localhost:50030 to see the MapReduce status.
+*Modify hosts file on your local*
+        ip-of-hadoop-machine  myhadoop
+        
+http://myhadoop:50070 to see the NameNode status 
+http://myhadoop:50030 to see the MapReduce status.
 
 Using Hive
 ==========
@@ -54,7 +57,6 @@ Using Hive
 
 
 
-  
 
 
 

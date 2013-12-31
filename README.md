@@ -7,27 +7,27 @@ This script required JAVA must install on Ubuntu server first and JAVA_HOME must
 Steps
 ====
 
-#. Setup JAVA and create environment variable JAVA_HOME::
+#. Setup JAVA and create environment variable JAVA_HOME
 
     export JAVA_HOME=<path_to_java>
     
-#. Move home::
+#. Move home
 
     cd ~/
     
-#. Clone the scripts from github::
+#. Clone the scripts from github
 
     git clone git@github.com:congdang/hadoop-hive-installing.git
     
-#. Move to hadoop-hive-installing::
+#. Move to hadoop-hive-installing
 
     cd hadoop-hive-installing
     
-#. Set execute permision for script::
+#. Set execute permision for script
 
     sudo chmod +x install.sh
     
-#. Run script for installing::
+#. Run script for installing
 
     ./install.sh
     
@@ -40,15 +40,15 @@ http://localhost:50030 to see the MapReduce status.
 Using Hive
 ==========
 
-#. start hive::
+#. start hive
 
     hive
     
-#. Create a sample table::
+#. Create a sample table
 
     hive> CREATE TABLE pokes (foo INT, bar STRING);
     
-#. Listing the Hive warehouse::
+#. Listing the Hive warehouse
 
     $HADOOP_HOME/bin/hadoop dfs -ls /user/hive/warehouse
 

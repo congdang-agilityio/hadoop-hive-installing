@@ -32,4 +32,4 @@ sudo chmod -R 755 hdfs/
 $HADOOP_HOME/bin/hadoop namenode -format
 
 #start hadoop
-$HADOOP_HOME/bin/hadoop/start-all.sh
+$HADOOP_HOME/bin/start-all.sh
